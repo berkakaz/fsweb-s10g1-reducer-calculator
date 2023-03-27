@@ -11,6 +11,11 @@ export const applyNumber = (number) => {
   return ({ type: APPLY_NUMBER, payload: number });
 }
 
+export const STORE_MEMORY = "HAFIZAYA AT";
+export const MEMORY_TOTAL = "MEMORY_TOTAL";
+export const MEMORY_RESET = "HAFIZAYI SIFIRLA";
+export const CLEAR_DISPLAY = "Toplam eşittir 0";
+
 export const changeOper = (oper) => {
   return ({ type: CHANGE_OPERATION, payload: oper });
 }
